@@ -1,0 +1,75 @@
+
+body{
+    background-image: url("Liquicity background-image.png");
+}
+#container_1{
+    display: inline-block;
+    background-color: white;
+    font-size: 5%;
+    width: 5%;
+    height: 5%;
+}
+a{
+    display: inline-flex;
+    border: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    background-image: url("color-background-links.jpg");
+    color: lightgreen;
+}
+img{
+    width: 400px;
+    height: 250px;
+    font-size: 50px;
+    border: 10px;
+    display: inline-flex;
+    background-image: url("Knipsel.jpg");
+}
+#container_1{
+    display: inline-block;
+    background-color: white;
+    font-size: 5%;
+    width: 5%;
+    height: 5%;
+
+}
+h5{
+    background-image: url("grey color.jpg");
+    height: 40px;
+    width: 300px;
+    border: 1%;
+    display: inline-block;
+    border-radius: 12%;
+}
+h4{
+    border: 300px;
+    display: inline-flex;
+    color: white;
+}
+header{
+    background-color: crimson;
+    color: crimson;
+    display: inline-block;
+    height: 50px;
+}
+h2{
+    border: 20px;
+    display: inline-flex;
+    color: white;
+}
+p{
+    border: 20px;
+    display: inline-flex;
+    color: white;
+}
+ul{
+    border: 20px;
+    display: inline-block;
+    color: white;
+}
+h1{
+    border: 20px;
+    display: inline-block;
+    color: white;
+}
