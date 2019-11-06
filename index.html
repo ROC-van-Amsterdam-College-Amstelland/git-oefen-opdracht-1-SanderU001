@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Website van Sander Uterwijk</title>
-    <link rel="stylesheet"type="text/css" href="style.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="image"></link>
+
+
 </head>
 <body>
-        <div class="container"><img src="foto_sander.jpg"><h4>Studentenpagina van Sander Uterwijk</h4></div>
+        <div class="thumbcontainer">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+        </div>
+    
+    <div class="container"><img src="image/foto_sander.jpg"><h4>Studentenpagina van Sander Uterwijk</h4></div>
+
+        
     
         <script>
             var i = 0; // Start point
@@ -40,10 +52,12 @@
         
         <img name="slide" width="400" height="200">
 
-        
-    
-    
-    
+
+        <script>
+            function myFunction(x) {
+              x.classList.toggle("fa-thumbs-down");
+            }
+            </script>
     
     
     <header>
@@ -53,8 +67,14 @@
         <div class="contact"><a href="index_1.html">Contact</a><h5>Hier vind u mijn contactgegevens</h5>
         <div class="cv_profiel"><a href="index_3.html">CV en Profiel</a><h5>Hier vind u mijn CV en Profiel voor infomatie over mij</h5>
         <div class="creatie"><a href="index_4.html">Mijn Creaties</a><h5>Hier vind u al mijn creaties die ik tot nu toe heb gemaakt</h5>
+        <div class="Github"><a href="https://github.com/">Github pagina</a><h5>Hier vind u mijn Github pagina</h5>
+    <div class="thumbcontainer">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <script src="js/script.js"></script>
+    </div>
         
-            
+
     
         
     

@@ -28,3 +28,7 @@
 
 <img src="DoggoInfobox.jpg" name="slide" width="400" height="200"></img>
 }
+
+function myFunction(x) {
+	x.classList.toggle("fa-thumbs-down");
+  }
